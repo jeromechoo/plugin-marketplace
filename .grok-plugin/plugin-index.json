@@ -224,8 +224,8 @@
       }
     },
     "figma": {
-      "sha": "ae7e5e5f80da20f1dd7445e0c6ae5ac58a5b0bce",
-      "version": "2.2.107",
+      "sha": "f74a51c9aaec87a2e65c9121753b63fb42203d96",
+      "version": "2.2.108",
       "components": {
         "mcpServers": [
           {
