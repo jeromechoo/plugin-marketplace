@@ -541,7 +541,7 @@
       }
     },
     "pstack": {
-      "sha": "93b00b89ef425a9c1bac0d0b317dfc49c930ac99",
+      "sha": "2b8ae2ee306f823d54879d3da7f8496b73c31d5d",
       "components": {
         "agents": [
           {
@@ -605,6 +605,10 @@
           {
             "name": "no-comments",
             "description": "Spawn Comment Sicko, fix accepted findings, and offer encodings for claimed constraints."
+          },
+          {
+            "name": "principle-attack-the-premise",
+            "description": "Apply when two or more fixes that share one premise have failed the same gate. Take a census of which actors hold the i…"
           },
           {
             "name": "principle-boundary-discipline",
@@ -684,7 +688,11 @@
           },
           {
             "name": "principle-subtract-before-you-add",
-            "description": "Apply when sequencing an addition, refactor, or rewrite. Remove dead weight, redundant validators, and stub references…"
+            "description": "Apply when sequencing an addition, refactor, or rewrite. Remove dead code, redundant validators, and stub references fi…"
+          },
+          {
+            "name": "principle-test-behavior-not-implementation",
+            "description": "Apply when you write, change, or keep a test. Call the code the way its users do and assert the result they observe aga…"
           },
           {
             "name": "principle-type-system-discipline",
