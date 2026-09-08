@@ -309,7 +309,7 @@
     },
     {
       "name": "diffbot",
-      "description": "Diffbot structured web knowledge (Skills). Query the Diffbot Knowledge Graph with DQL for organizations, people, places, news, and funding deals, plus web search, page extraction, entity resolution, and site crawling. Bring your own Diffbot API token; the skills bootstrap the diffbot-python CLI into ~/.diffbot/venv on first run.",
+      "description": "Official Diffbot plugin for Grok. Gives your Grok bot skills for fetching knowledge. Query the Diffbot Knowledge Graph for organizations, people, places, news, or investment deals; search, crawl, and extract the web."
       "category": "development",
       "source": {
         "source": "url",
@@ -317,7 +317,7 @@
         "sha": "c8d410cff0f318a20dbfa161a3ca4d6a3bacb1e9"
       },
       "homepage": "https://github.com/diffbot/diffbot-skills",
-      "keywords": ["diffbot", "diffbot dql", "diffbot knowledge graph", "dql"],
+      "keywords": ["diffbot", "extract", "knowledge graph", "dql", "web search", "crawl", "entities"],
       "domains": ["diffbot.com", "app.diffbot.com", "docs.diffbot.com", "kg.diffbot.com"]
     }
   ]
