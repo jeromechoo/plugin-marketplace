@@ -90,8 +90,8 @@
       }
     },
     "chrome-devtools": {
-      "sha": "45f187b1e3202c9f32ddba913be5d68751c3caa3",
-      "version": "1.8.0",
+      "sha": "6e53015a16423e3758a14d82c494cfcb4c07c3ea",
+      "version": "1.9.0",
       "components": {
         "mcpServers": [
           {
@@ -111,6 +111,10 @@
           {
             "name": "chrome-devtools-cli",
             "description": "Use this skill to write shell scripts or run shell commands to automate tasks in the browser or otherwise use Chrome De…"
+          },
+          {
+            "name": "cookie-debugging",
+            "description": "Uses Chrome DevTools MCP for inspecting, debugging, and testing cookies, session state, authentication issues, and cook…"
           },
           {
             "name": "debug-optimize-lcp",
